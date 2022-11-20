@@ -1,0 +1,64 @@
+/*
+Stylesheet for this project
+Name: styles.css
+Official name: The styles
+Author: Iyaad Mohamed Arshad
+*/
+
+/*Global settings*/
+
+.global {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.introduction {
+    background-color: wheat;
+}
+
+/*Primary classes*/
+
+.center {
+    text-align: center;
+}
+
+.img {
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.header {
+    background-color: aqua;
+    padding: 5px;
+    text-align: center;
+}
+
+.title {
+    font-size: 75px;
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+.small-spacer {
+    height: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 2px 16px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+/*On hover css*/
+.img:hover {
+    box-shadow: 0 8px 16px 0 black;
+    transform: scale(1.25);
+}
