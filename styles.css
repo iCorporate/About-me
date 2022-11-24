@@ -62,3 +62,13 @@ Author: Iyaad Mohamed Arshad
     box-shadow: 0 8px 16px 0 black;
     transform: scale(1.25);
 }
+
+.left {
+    text-align: left;
+}
+/*other*/
+.centerh {
+    text-align: center;
+    font-size: 80px;
+}
+
